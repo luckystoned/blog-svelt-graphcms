@@ -26,8 +26,6 @@
     <title>Stoned Blog | Welcome</title>
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-
 {#each posts as { title, slug, excerpt, tags, coverImage }}
     <div class="card text-center shadow-2xl mb-20">
         <figure>

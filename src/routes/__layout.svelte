@@ -1,5 +1,9 @@
 <script>
-  import '../app.css'
+  import '../app.postcss'
 </script>
 
-<slot />
+<main class="container max-w-xl mx-auto px-4">
+  
+  <slot />
+
+</main>
